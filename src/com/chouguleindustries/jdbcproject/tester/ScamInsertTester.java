@@ -10,8 +10,8 @@ public class ScamInsertTester {
 	public static void main(String[] args) {
 
 		String username = "root";
-		String password = "Anusha@1";
-		String url = "jdbc:mysql://localhost:3306/anushasri_ks";
+		String password = "4BB14ME044";
+		String url = "jdbc:mysql://127.0.0.1:3306/project";
 
 		try (Connection connection = DriverManager.getConnection(url, username, password)) {
 			Statement statement = connection.createStatement();
